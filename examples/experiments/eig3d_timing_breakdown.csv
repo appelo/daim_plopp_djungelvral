@@ -1,0 +1,64 @@
+N,solver,section,ncalls,time_s,alloc_GiB,pct_of_total
+80,eig3d,"solve (dense)",50,1.1148,3.0519,26.29
+80,eig3d,"error diagnostic",24,0.1932,0.3309,4.56
+80,eig3d,"compress solution (mlsvd3)",50,1.9366,1.0102,45.67
+80,eig3d,"op-residual diagnostic",24,0.3752,0.7328,8.85
+80,eig3d,"rhs assembly (dense)",50,0.322,1.3445,7.59
+80,eig3d,"setup: forcing (mlsvd3)",1,0.0729,0.0323,1.72
+80,eig3d,"flux/trace densify",50,0.226,0.4757,5.33
+80,eig3d_lr,"error diagnostic",24,0.1921,0.3186,4.03
+80,eig3d_lr,"compress solution (recompress)",50,0.0128,0.0267,0.27
+80,eig3d_lr,"rhs assembly (dense mlsvd3)",50,1.6324,2.0468,34.25
+80,eig3d_lr,"op-residual diagnostic",24,0.3112,0.639,6.53
+80,eig3d_lr,"setup: forcing (mlsvd3)",1,0.07,0.0323,1.47
+80,eig3d_lr,"solve (Cross-DEIM)",50,2.3848,1.4395,50.03
+80,eig3d_lr,"flux/trace densify",50,0.163,0.4682,3.42
+80,eig3d_lr_crosssum,"error diagnostic",24,0.1355,0.3185,1.17
+80,eig3d_lr_crosssum,"compress solution (recompress)",50,0.0132,0.0267,0.11
+80,eig3d_lr_crosssum,"rhs assembly (tucker_sum)",50,0.1682,0.2092,1.45
+80,eig3d_lr_crosssum,"op-residual diagnostic",24,0.337,0.6334,2.9
+80,eig3d_lr_crosssum,"setup: forcing (mlsvd3)",1,0.0522,0.0323,0.45
+80,eig3d_lr_crosssum,"solve (Cross-DEIM)",50,10.6796,1.4375,91.96
+80,eig3d_lr_crosssum,"flux/trace densify",50,0.2276,0.4684,1.96
+160,eig3d,"solve (dense)",50,9.5825,24.5277,28.82
+160,eig3d,"error diagnostic",24,0.7865,1.8112,2.37
+160,eig3d,"compress solution (mlsvd3)",50,17.076,6.8613,51.35
+160,eig3d,"op-residual diagnostic",24,1.2952,0.9037,3.89
+160,eig3d,"rhs assembly (dense)",50,3.2508,10.7509,9.78
+160,eig3d,"setup: forcing (mlsvd3)",1,0.6269,0.2532,1.89
+160,eig3d,"flux/trace densify",50,0.637,3.3572,1.92
+160,eig3d_lr,"error diagnostic",24,0.7909,1.8002,3.07
+160,eig3d_lr,"compress solution (recompress)",50,0.1029,0.0264,0.4
+160,eig3d_lr,"rhs assembly (dense mlsvd3)",50,19.2264,15.7346,74.56
+160,eig3d_lr,"op-residual diagnostic",24,1.2616,0.849,4.89
+160,eig3d_lr,"setup: forcing (mlsvd3)",1,0.6184,0.2518,2.4
+160,eig3d_lr,"solve (Cross-DEIM)",50,2.723,1.5443,10.56
+160,eig3d_lr,"flux/trace densify",50,1.0647,3.3268,4.13
+160,eig3d_lr_crosssum,"error diagnostic",24,0.7842,1.8008,1.78
+160,eig3d_lr_crosssum,"compress solution (recompress)",50,0.012,0.0265,0.03
+160,eig3d_lr_crosssum,"rhs assembly (tucker_sum)",50,0.8833,0.5504,2.01
+160,eig3d_lr_crosssum,"op-residual diagnostic",24,1.0753,0.8476,2.44
+160,eig3d_lr_crosssum,"setup: forcing (mlsvd3)",1,0.5534,0.2518,1.26
+160,eig3d_lr_crosssum,"solve (Cross-DEIM)",50,39.2544,1.5737,89.15
+160,eig3d_lr_crosssum,"flux/trace densify",50,1.4715,3.3269,3.34
+240,eig3d,"solve (dense)",50,27.7637,82.3976,27.88
+240,eig3d,"error diagnostic",24,3.0748,5.605,3.09
+240,eig3d,"compress solution (mlsvd3)",50,50.6359,22.0439,50.85
+240,eig3d,"op-residual diagnostic",24,2.5384,1.3281,2.55
+240,eig3d,"rhs assembly (dense)",50,10.9104,36.1502,10.96
+240,eig3d,"setup: forcing (mlsvd3)",1,1.9914,0.8406,2.0
+240,eig3d,"flux/trace densify",50,2.6562,10.9075,2.67
+240,eig3d_lr,"error diagnostic",24,2.5532,5.5827,3.0
+240,eig3d_lr,"compress solution (recompress)",50,0.0189,0.032,0.02
+240,eig3d_lr,"rhs assembly (dense mlsvd3)",50,67.9414,52.5037,79.85
+240,eig3d_lr,"op-residual diagnostic",24,3.0513,1.284,3.59
+240,eig3d_lr,"setup: forcing (mlsvd3)",1,1.7345,0.8406,2.04
+240,eig3d_lr,"solve (Cross-DEIM)",50,4.4357,1.979,5.21
+240,eig3d_lr,"flux/trace densify",50,5.3489,10.8846,6.29
+240,eig3d_lr_crosssum,"error diagnostic",24,2.6646,5.5821,1.87
+240,eig3d_lr_crosssum,"compress solution (recompress)",50,0.018,0.0317,0.01
+240,eig3d_lr_crosssum,"rhs assembly (tucker_sum)",50,2.9717,1.1016,2.08
+240,eig3d_lr_crosssum,"op-residual diagnostic",24,2.544,1.2767,1.78
+240,eig3d_lr_crosssum,"setup: forcing (mlsvd3)",1,2.1654,0.8406,1.52
+240,eig3d_lr_crosssum,"solve (Cross-DEIM)",50,128.85,1.7905,90.23
+240,eig3d_lr_crosssum,"flux/trace densify",50,3.5941,10.8884,2.52
