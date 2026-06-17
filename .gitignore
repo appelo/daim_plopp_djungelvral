@@ -1,0 +1,33 @@
+# Julia
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+/Manifest.toml
+/docs/build/
+/docs/site/
+deps/deps.jl
+deps/build.log
+deps/downloads/
+deps/usr/
+deps/src/
+.julia/
+
+# Julia package compilation cache
+*.ji
+*.so
+*.dylib
+*.dll
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.DocumentRevisions-V100
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.apdisk

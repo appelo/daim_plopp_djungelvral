@@ -15,6 +15,7 @@ end
 export greet
 export qdeim, crossDEIM, scross, compute_residual, truncsum, trunclr, LRSVD
 export Tucker3, fold, unfold, modemult, lmlragen3, tucker_eval, tucker_cross_sum, tucker_sum
+export Tucker4, lmlragen4
 
 include("scross.jl")
 include("crossDEIM.jl")        # includes qdeim
@@ -22,6 +23,9 @@ include("matrix_helpers.jl")   # truncsum, trunclr, compute_residual
 include("tucker.jl")
 include("tucker_helpers.jl")
 include("tucker_crossDEIM.jl")
+include("tucker4.jl")              # Tucker4 + 4D unfold/fold/modemult/lmlragen4/tucker_eval
+include("tucker4_helpers.jl")      # residual4, mlsvd4, tucker_sum(Tucker4)
+include("tucker4_crossDEIM.jl")    # crossDEIM(4D), tucker_cross_sum(Tucker4)
 
 """
     greet()
